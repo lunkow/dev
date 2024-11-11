@@ -11,4 +11,6 @@ export default defineNuxtConfig({
       publicDir: 'docs',
     },
   },
+  modules: ['@nuxt/content'],
+  ssr: true,
 })
