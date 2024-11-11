@@ -1,0 +1,28 @@
+{
+  "name": "dev",
+  "version": "0.0.1",
+  "description": "Static Dev Blog",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunkow/dev.git"
+  },
+  "author": "Anton Lunkov",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/lunkow/dev/issues"
+  },
+  "homepage": "https://github.com/lunkow/dev#readme",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.14.159",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
